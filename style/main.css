@@ -1,0 +1,93 @@
+.container-master {
+  width: min(80rem, 88%);
+  margin: 0px auto;
+}
+.arrow {
+  width: 10px;
+}
+
+.profile {
+  width: 65px;
+  border-radius: 50%;
+  box-shadow: 2px 5px 15px rgba(0, 0, 0, 0.301);
+  animation: image-rotate .5s forwards;
+}
+
+.header p {
+  color: var(--name-gray-opacity);
+  font-size: 1.8rem;
+  font-weight: bold;
+  animation: text-appear .5s .15s forwards;
+  opacity: 0;
+}
+
+.header div:first-child {
+  display: flex;
+  align-items: center;
+  padding: 5rem 0rem;
+}
+
+.title {
+  font-size: 1.8rem;
+  color: var(--section-title-black);
+  margin-bottom: 3rem;
+}
+
+.span {
+  font-size: 1.4rem;
+  color: var(--span-gray-color);
+  margin-bottom: 2rem;
+}
+
+.text {
+  font-size: 1.6rem;
+  color: var(--text-black);
+  margin-bottom: 2rem;
+}
+
+.link a{
+  font-size: 1.4rem;
+  color: var(--h3-link-black);
+}
+
+.list {
+  cursor: pointer;
+}
+
+.link img, .list img {
+  transition: all .15s;
+}
+.link:hover img, .list:hover img {
+  margin-left: 5px;
+}
+
+.space {
+  margin-bottom: 4rem;
+}
+
+.name {
+  margin-left: 3rem;
+}
+
+.secone, .sectwo {
+  animation: text-appear .5s .3s forwards;
+  opacity: 0;
+}
+
+.secthree {
+  animation: text-appear .5s .45s forwards;
+  opacity: 0;
+}
+
+.secfour {
+  margin-bottom: 7rem;
+  animation: text-appear .5s .6s forwards;
+  opacity: 0;
+}
+
+.secfour a {
+  font-size: 1.4rem;
+  font-weight: 500;
+  line-height: 2.5rem;
+  color: var(--text-black);
+}

@@ -1,0 +1,45 @@
+@media (max-width: 1200px) {
+  body {
+    flex-direction: column;
+    width: 100%;
+  }
+  main {
+    width: 100%;
+  }
+  aside {
+    width: 100%;
+  }
+  .container-master {
+    width: 50rem;
+  }
+  .content-master {
+    width: min(50rem, 88%);
+    margin: 5rem auto;
+  }
+}
+
+@media (max-width: 810px) {
+  .header div:first-child {
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+  }
+  .name {
+    margin-top: 3rem;
+    margin-left: 0;
+    text-align: center;
+  }
+  .container-master {
+    width: 88%;
+  }
+  body {
+    width: 100%;
+  }
+  aside {
+    width: 100%;
+  }
+  main {
+    width: 100%;
+  }
+}
+

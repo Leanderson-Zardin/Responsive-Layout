@@ -1,0 +1,28 @@
+@keyframes image-rotate {
+  from {
+    transform: rotate(-90deg) scale(0);
+  }
+  to {
+    transform: rotate(0deg) scale(1);
+  }
+}
+
+@keyframes text-appear {
+  from {
+    transform: translateY(30px);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0px);
+    opacity: 1;
+  }
+}
+
+@keyframes aside-appear {
+  from {
+    transform: translate(100%) scaleX(0);
+  }
+  to {
+    transforms: translate(0) scaleX(1);
+  }
+}
